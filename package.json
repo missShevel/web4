@@ -1,0 +1,33 @@
+{
+  "name": "mypackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "prettier": "2.5.1",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0"
+  },
+  "scripts": {
+    "lint:check": "eslint . --ignore-path .gitignore",
+    "lint:fix": "eslint . --fix --ignore-path .gitignore",
+    "format:check": "prettier --check . --ignore-path .gitignore",
+    "format": "prettier --write . --ignore-path .gitignore",
+    "stylelint:check": "stylelint \"**/*.css\" --ignore-path .gitignore",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missShevel/web4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missShevel/web4/issues"
+  },
+  "homepage": "https://github.com/missShevel/web4#readme"
+}
