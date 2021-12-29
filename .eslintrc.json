@@ -1,5 +1,0 @@
-{
-    "extends": ["metarhia", "plugin:sonarjs/recommended"],
-    "plugins": ["sonarjs"],
-    "rules": { "sonarjs/elseif-without-else": 1 }
-  }

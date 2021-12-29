@@ -1,0 +1,10 @@
+:root {
+  --background-color: #edf2f4;
+  --menu-link-color: #edf2f4;
+  --menu-primary-color: #2b2d42;
+  --menu-checked-color: #151621;
+  --menu-button-size: 25px;
+  --menu-button-indent: 25px;
+  --menu-width: 300px;
+  --menu-shadow-color: rgb(0 0 0 / 20%);
+}
